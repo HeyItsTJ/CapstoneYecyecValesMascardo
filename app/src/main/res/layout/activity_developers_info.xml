@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city_background"
+    tools:context=".developers_info">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="This app is a teacher and staff browsing app, where you can browse a tons of teachers and staff inside of it quick and easy with no worries at all updates may be took long enough but worth to wait, thank you for using the app have a nice day!!!"
+        android:textAlignment="center"
+        android:textColor="#adcae6"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="405dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="The purpose of this app is to provide a more convenient tool to navigate around your school's faculty and staff. It will inform you of what subject, section, or position belongs to which teacher or staff, making familiarization within the campus much easier for students, especially those too anxious to ask themselves, with just a tap of a button. We hope this app provides you with the intended convenience and will be using it more in the future."
+        android:textAlignment="center"
+        android:textColor="#adcae6"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="The app’s purpose is to help students in finding and communicating with the teacher, you can catch up on updates on the teacher’s status, whereabouts, announcements and even ask them about inquiries by messaging them. This app will allow students to be more familiar with the school and more comfortable with approaching teachers for questions or meetings."
+        android:textAlignment="center"
+        android:textColor="#adcae6"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="DEV. LEOMER"
+        android:textColor="#adcae6"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Devinfotxt" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="DEV. ALVIN"
+        android:textColor="#adcae6"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Devinfotxt" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="DEV. TJ"
+        android:textColor="#adcae6"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Devinfotxt" />
+
+    <TextView
+        android:id="@+id/Devinfotxt"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="DEVELOPERS INFO"
+        android:textAlignment="center"
+        android:textColor="#00bfff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+</androidx.constraintlayout.widget.ConstraintLayout>
